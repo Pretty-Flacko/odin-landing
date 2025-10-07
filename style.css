@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 .header-section {
     background-color: #1F2937;
     padding: 20px 120px;
@@ -52,4 +53,31 @@ h1 {
     background-color: grey;
     color: white;
     text-align: center;
+}
+
+.info-section {
+    padding: 40px 120px;
+    text-align: center;
+}
+.info-header {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.info-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.case {
+    max-width: 200px;
+}
+.case img {
+    border: #1F2937 solid;
+    height: 180px;
+    width: 180px;
+}
+.case p {
+    color: #1F2937;
 }
